@@ -1,0 +1,41 @@
+nav{
+    transition: all ease .2s;
+    height: 80px;
+    position: sticky !important;
+    top: 0px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+.cards{
+    position: absolute;
+    top: -50px;
+    transition: all ease .2s;
+    max-width: 250px !important;
+    min-width: 300px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cards p{
+    text-decoration: underline;
+    font-size: 18px;
+    transition: all ease .2s;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cards p:hover{
+    
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+p::after{
+    content: "   ";
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    color: red;
+    background-color: azure;
+}
+.cards:hover{
+    transform: translateY(-10px);
+}
