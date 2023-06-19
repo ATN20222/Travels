@@ -1,6 +1,6 @@
 nav{
     transition: all ease .2s;
-    height: 80px;
+    min-height: 80px;
     position: sticky !important;
     top: 0px;
     z-index: 10;
